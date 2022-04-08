@@ -16,7 +16,7 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `WelcomeBeban👋` 
+               displayText: `Welcome👋` 
                }, type: 1 
               }
              ]
@@ -36,7 +36,7 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `AsekkBebanOutByee👋` 
+               displayText: `Bye👋` 
                }, type: 1 
               }
              ]
