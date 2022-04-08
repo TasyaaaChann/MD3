@@ -16,7 +16,7 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `Welcome👋` 
+               displayText: `WelcomeBeban👋` 
                }, type: 1 
               }
              ]
@@ -28,7 +28,7 @@
           jpegThumbnail: await getBuffer(ppuser) 
          }, 
          buttons: button, 
-         footer: 'T-XM_Multi~Device', mentions: [num] })
+         footer: 'TasyaaMd', mentions: [num] })
          } 
         else 
         if (update.action == 'remove') {
@@ -36,7 +36,7 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `Bye👋` 
+               displayText: `AsekkBebanOutByee👋` 
                }, type: 1 
               }
              ]
@@ -47,7 +47,7 @@
            location: { jpegThumbnail: await getBuffer(ppuser) 
           }, 
            buttons: button, 
-           footer: 'T-XM_Multi~Device', 
+           footer: 'TasyaaMd', 
            mentions: [num] 
              }
              )
