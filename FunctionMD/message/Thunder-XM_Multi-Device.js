@@ -160,104 +160,127 @@ function randomNomor(min, max = null) {
     MenuList += ` 💻 *Type:* Baileys-md\n`
     MenuList += ` 🪧 *Bot Name:* ${Options.info.botName}\n\n${readMore}`    
     MenuList += `• *ALL MENU*\n\n`
+    
     MenuList += `_📁️DEFAULT & TESTER_\n`
-    MenuList += `${LETT++} ${prefix}menu\n`
-    MenuList += `${LETT++} ${prefix}test\n`
-    MenuList += `${LETT++} ${prefix}temp\n`
-    MenuList += `${LETT++} ${prefix}listsection1\n`
-    MenuList += `${LETT++} ${prefix}listsection2\n`
-    MenuList += `${LETT++} ${prefix}p\n\n`
-    MenuList += `_INFO BOT_\n`
-    MenuList += `${LETT++} ${prefix}runtime\n`
-    MenuList += `${LETT++} ${prefix}speed\n\n`
-    MenuList += `_⬇️DOWNLOADER_\n`
-    MenuList += `${LETT++} ${prefix}play query\n`
-    MenuList += `${LETT++} ${prefix}tiktokvideo link\n`
-    MenuList += `${LETT++} ${prefix}tiktokaudio link\n`
-    MenuList += `${LETT++} ${prefix}youtubemp4 link\n`
-    MenuList += `${LETT++} ${prefix}youtubemp3 link\n\n`
-    MenuList += `_🖨️CONVERTER_\n`
-    MenuList += `${LETT++} ${prefix}sticker\n`
-    MenuList += `${LETT++} ${prefix}toimg\n`
-    MenuList += `${LETT++} ${prefix}tovid\n\n`
-    MenuList += `_🖥️BAILEYS DOCS_\n`
-    MenuList += `${LETT++} ${prefix}delete\n\n`
+    MenuList += `${prefix}menu\n`
+    MenuList += `${prefix}test\n`
+    MenuList += `${prefix}temp\n`
+    MenuList += `${prefix}listsection1\n`
+    MenuList += `${prefix}listsection2\n`
+    MenuList += `${prefix}p\n\n`
+   
+     MenuList += `_🤖INFO BOT_\n`
+    MenuList += `${prefix}runtime\n`
+    MenuList += `${prefix}speed\n\n`
+   
+     MenuList += `_🗂️DOWNLOADER_\n`
+    MenuList += `${prefix}play query\n`
+    MenuList += `${prefix}tiktokvideo link\n`
+    MenuList += `${prefix}tiktokaudio link\n`
+    MenuList += `${prefix}youtubemp4 link\n`
+    MenuList += `${prefix}youtubemp3 link\n\n`
+   
+     MenuList += `_🖨️CONVERTER_\n`
+    MenuList += `${prefix}sticker\n`
+    MenuList += `${prefix}toimg\n`
+    MenuList += `${prefix}tovid\n\n`
+   
+     MenuList += `_🖥️BAILEYS DOCS_\n`
+    MenuList += `${prefix}delete\n\n`
+    
     MenuList += `_🏢GROUP_\n`
-    MenuList += `${LETT++} ${prefix}add\n`
-    MenuList += `${LETT++} ${prefix}kick\n`
-    MenuList += `${LETT++} ${prefix}promote\n`
-    MenuList += `${LETT++} ${prefix}demote\n`
-    MenuList += `${LETT++} ${prefix}antilink\n`
-    MenuList += `${LETT++} ${prefix}afk\n`
-    MenuList += `${LETT++} ${prefix}setnamegroup\n`
-    MenuList += `${LETT++} ${prefix}setdesc\n`
-    MenuList += `${LETT++} ${prefix}revoke\n`
-    MenuList += `${LETT++} ${prefix}group <open/close>\n`
-    MenuList += `${LETT++} ${prefix}hidetag\n\n`
+    MenuList += `${prefix}add\n`
+    MenuList += `${prefix}kick\n`
+    MenuList += `${prefix}promote\n`
+    MenuList += `${prefix}demote\n`
+    MenuList += `${prefix}antilink\n`
+    MenuList += `${prefix}afk\n`
+    MenuList += `${prefix}setnamegroup\n`
+    MenuList += `${prefix}setdesc\n`
+    MenuList += `${prefix}revoke\n`
+    MenuList += `${prefix}group <open/close>\n`
+    MenuList += `${prefix}hidetag\n\n`
+    
     MenuList += `_🏞️RPG_\n` 
-    MenuList += `${LETT++} ${prefix}berburu\n`
-    MenuList += `${LETT++} ${prefix}mancing\n`
-    MenuList += `${LETT++} ${prefix}menambang\n`
-    MenuList += `${LETT++} ${prefix}mining\n`
-    MenuList += `${LETT++} ${prefix}heal\n\n`
+    MenuList += `${prefix}berburu\n`
+    MenuList += `${prefix}mancing\n`
+    MenuList += `${prefix}menambang\n`
+    MenuList += `${prefix}mining\n`
+    MenuList += `${prefix}heal\n\n`
+    
     MenuList += `_🖌️️TEXTPRO_\n` 
-    MenuList += `${LETT++}. ${prefix}sci_fi _text_\n`
-    MenuList += `${LETT++}. ${prefix}blackpink\n`
-    MenuList += `${LETT++}. ${prefix}lightglow\n`
-    MenuList += `${LETT++}. ${prefix}glass\n`
-    MenuList += `${LETT++}. ${prefix}hoorror_blood\n`
-    MenuList += `${LETT++}. ${prefix}sand\n`
-    MenuList += `${LETT++}. ${prefix}sketch\n`
-    MenuList += `${LETT++}. ${prefix}magma\n`
-    MenuList += `${LETT++}. ${prefix}batman\n`
-    MenuList += `${LETT++}. ${prefix}demon\n`
-    MenuList += `${LETT++}. ${prefix}sci_fi\n`
-    MenuList += `${LETT++}. ${prefix}ice\n`
-    MenuList += `${LETT++}. ${prefix}sea_metal\n`
-    MenuList += `${LETT++}. ${prefix}skeleton\n`
-    MenuList += `${LETT++}. ${prefix}transformer\n`
-    MenuList += `${LETT++}. ${prefix}warning\n`
-    MenuList += `${LETT++}. ${prefix}denim\n\n`
+    MenuList += `${prefix}sci_fi _text_\n`
+    MenuList += `${prefix}blackpink\n`
+    MenuList += `${prefix}lightglow\n`
+    MenuList += `${prefix}glass\n`
+    MenuList += `${prefix}hoorror_blood\n`
+    MenuList += `${prefix}sand\n`
+    MenuList += `${prefix}sketch\n`
+    MenuList += `${prefix}magma\n`
+    MenuList += `${prefix}batman\n`
+    MenuList += `${prefix}demon\n`
+    MenuList += `${prefix}sci_fi\n`
+    MenuList += `${prefix}ice\n`
+    MenuList += `${prefix}sea_metal\n`
+    MenuList += `${prefix}skeleton\n`
+    MenuList += `${prefix}transformer\n`
+    MenuList += `${prefix}warning\n`
+    MenuList += `${prefix}denim\n\n`
+    
     MenuList += `_ℹ️INFO USER_\n` 
-    MenuList += `${LETT++} ${prefix}profile\n`
-    MenuList += `${LETT++} ${prefix}inventori\n`
-    MenuList += `${LETT++} ${prefix}leaderboard\n\n`
+    MenuList += `${prefix}profile\n`
+    MenuList += `${prefix}inventori\n`
+    MenuList += `${prefix}leaderboard\n\n`
+    
     MenuList += `_🛍️Transaksi 🛒_\n` 
-    MenuList += `${LETT++} ${prefix}jual _barang_ _jumlah_\n`
-    MenuList += `${LETT++} ${prefix}sel _barang_ _jumlah_\n`
-    MenuList += `${LETT++} ${prefix}buy _barang_ _jumlah_\n`
-    MenuList += `${LETT++} ${prefix}beli _barang_ _jumlah_\n\n`
+    MenuList += `${prefix}jual _barang_ _jumlah_\n`
+    MenuList += `${prefix}sel _barang_ _jumlah_\n`
+    MenuList += `${prefix}buy _barang_ _jumlah_\n`
+    MenuList += `${prefix}beli _barang_ _jumlah_\n\n`
+    
     MenuList += `_📺Internet_\n`
-    MenuList += `${LETT++} ${prefix}detiknews\n`
-    MenuList += `${LETT++} ${prefix}wiki\n`
-    MenuList += `${LETT++} ${prefix}wallpaperaccess\n`
-    MenuList += `${LETT++} ${prefix}google\n`
-    MenuList += `${LETT++} ${prefix}gempa\n`
-    MenuList += `${LETT++} ${prefix}covidindo\n`
-    MenuList += `${LETT++} ${prefix}jadwaltv\n`
-    MenuList += `${LETT++} ${prefix}pinterest\n`
-    MenuList += `${LETT++} ${prefix}lirik\n`
-    MenuList += `${LETT++} ${prefix}brainly\n\n`
+    MenuList += `${prefix}detiknews\n`
+    MenuList += `${prefix}wiki\n`
+    MenuList += `${prefix}wallpaperaccess\n`
+    MenuList += `${prefix}google\n`
+    MenuList += `${prefix}gempa\n`
+    MenuList += `${prefix}covidindo\n`
+    MenuList += `${prefix}jadwaltv\n`
+    MenuList += `${prefix}pinterest\n`
+    MenuList += `${prefix}lirik\n`
+    MenuList += `${prefix}brainly\n\n`
+    
     MenuList += `_📸Random Pict_\n`
-    MenuList += `${LETT++} ${prefix}waifu\n`
-    MenuList += `${LETT++} ${prefix}awoo\n`
-    MenuList += `${LETT++} ${prefix}shinobu\n`
-    MenuList += `${LETT++} ${prefix}neko\n`
-    MenuList += `${LETT++} ${prefix}megumin\n`
-    MenuList += `${LETT++} ${prefix}couple\n\n`
+    MenuList += `${prefix}waifu\n`
+    MenuList += `${prefix}awoo\n`
+    MenuList += `${prefix}shinobu\n`
+    MenuList += `${prefix}neko\n`
+    MenuList += `${prefix}megumin\n`
+    MenuList += `${prefix}couple\n\n`
+    
     MenuList += `_🎷Sound🎷_\n`
-    MenuList += `${LETT++} ${prefix}sound1\n\n`
+    MenuList += `${prefix}sound1\n\n`
+    MenuList += `${prefix}sound2\n\n`
+    MenuList += `${prefix}sound3\n\n`
+    MenuList += `${prefix}sound4\n\n`
+    MenuList += `${prefix}sound5\n\n`
+    MenuList += `${prefix}sound6\n\n`
+    
     MenuList += `🃏Primbon🃏\n`
-    MenuList += `${LETT++} ${prefix}artinama\n\n`
+    MenuList += `${prefix}artinama\n\n`
+    
     MenuList += `_🛐Islami🛐_\n`
-    MenuList += `${LETT++} ${prefix}kisahnabi\n\n`
+    MenuList += `${prefix}kisahnabi\n\n`
+    
     MenuList += `🇯🇵AniManga\n`
-    MenuList += `${LETT++} ${prefix}manga\n`
-    MenuList += `${LETT++} ${prefix}chara\n\n`
+    MenuList += `${prefix}manga\n`
+    MenuList += `${prefix}chara\n\n`
+    
     MenuList += `_💽Random Video_\n`
-    MenuList += `${LETT++} ${prefix}asupan\n\n`
+    MenuList += `${prefix}asupan\n\n`
+    
     MenuList += `🏓_Game_\n`
-    MenuList += `${LETT++} ${prefix}tebakgambar\n`
+    MenuList += `${prefix}tebakgambar\n`
    
     
       
@@ -1813,7 +1836,87 @@ break
    from, 
    { 
     audio: {
-     url : `https://k.top4top.io/m_2279djqoy1.mp3`
+     url : `https://l.top4top.io/m_2290pw7z21.mp3`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound2':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://l.top4top.io/m_2290czsfx0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound3':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://c.top4top.io/m_2290fhpan0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound4':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://g.top4top.io/m_22906nf8r0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound5':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://g.top4top.io/m_2290c3i4d0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound6':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://h.top4top.io/m_2290kdjix0.m4a`
     }, 
     mimetype: 'audio/mp4', 
     ptt: true
