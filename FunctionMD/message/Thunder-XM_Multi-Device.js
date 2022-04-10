@@ -2009,7 +2009,7 @@ case 'awoo': case 'neko':{
    
 m.reply(
     from, 
-    ',_Fitur Tidak Tersedia_', 
+    '_Fitur Tidak Tersedia_', 
     { 
      quoted : m 
     }
