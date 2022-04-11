@@ -160,6 +160,7 @@ function randomNomor(min, max = null) {
     MenuList += ` 💻 *Type:* Baileys-md\n`
     MenuList += ` 🪧 *Bot Name:* ${Options.info.botName}\n\n${readMore}`    
     MenuList += `• *ALL MENU*\n\n`
+    
     MenuList += `_📁️DEFAULT & TESTER_\n`
     MenuList += `${LETT++} ${prefix}menu\n`
     MenuList += `${LETT++} ${prefix}test\n`
@@ -170,18 +171,22 @@ function randomNomor(min, max = null) {
     MenuList += `_INFO BOT_\n`
     MenuList += `${LETT++} ${prefix}runtime\n`
     MenuList += `${LETT++} ${prefix}speed\n\n`
+    
     MenuList += `_⬇️DOWNLOADER_\n`
     MenuList += `${LETT++} ${prefix}play query\n`
     MenuList += `${LETT++} ${prefix}tiktokvideo link\n`
     MenuList += `${LETT++} ${prefix}tiktokaudio link\n`
     MenuList += `${LETT++} ${prefix}youtubemp4 link\n`
     MenuList += `${LETT++} ${prefix}youtubemp3 link\n\n`
+    
     MenuList += `_🖨️CONVERTER_\n`
     MenuList += `${LETT++} ${prefix}sticker\n`
     MenuList += `${LETT++} ${prefix}toimg\n`
     MenuList += `${LETT++} ${prefix}tovid\n\n`
+    
     MenuList += `_🖥️BAILEYS DOCS_\n`
     MenuList += `${LETT++} ${prefix}delete\n\n`
+   
     MenuList += `_🏢GROUP_\n`
     MenuList += `${LETT++} ${prefix}add\n`
     MenuList += `${LETT++} ${prefix}kick\n`
@@ -194,12 +199,14 @@ function randomNomor(min, max = null) {
     MenuList += `${LETT++} ${prefix}revoke\n`
     MenuList += `${LETT++} ${prefix}group <open/close>\n`
     MenuList += `${LETT++} ${prefix}hidetag\n\n`
+    
     MenuList += `_🏞️RPG_\n` 
     MenuList += `${LETT++} ${prefix}berburu\n`
     MenuList += `${LETT++} ${prefix}mancing\n`
     MenuList += `${LETT++} ${prefix}menambang\n`
     MenuList += `${LETT++} ${prefix}mining\n`
     MenuList += `${LETT++} ${prefix}heal\n\n`
+    
     MenuList += `_🖌️️TEXTPRO_\n` 
     MenuList += `${LETT++}. ${prefix}sci_fi _text_\n`
     MenuList += `${LETT++}. ${prefix}blackpink\n`
@@ -218,15 +225,18 @@ function randomNomor(min, max = null) {
     MenuList += `${LETT++}. ${prefix}transformer\n`
     MenuList += `${LETT++}. ${prefix}warning\n`
     MenuList += `${LETT++}. ${prefix}denim\n\n`
+    
     MenuList += `_ℹ️INFO USER_\n` 
     MenuList += `${LETT++} ${prefix}profile\n`
     MenuList += `${LETT++} ${prefix}inventori\n`
     MenuList += `${LETT++} ${prefix}leaderboard\n\n`
+    
     MenuList += `_🛍️Transaksi 🛒_\n` 
     MenuList += `${LETT++} ${prefix}jual _barang_ _jumlah_\n`
     MenuList += `${LETT++} ${prefix}sel _barang_ _jumlah_\n`
     MenuList += `${LETT++} ${prefix}buy _barang_ _jumlah_\n`
     MenuList += `${LETT++} ${prefix}beli _barang_ _jumlah_\n\n`
+    
     MenuList += `_📺Internet_\n`
     MenuList += `${LETT++} ${prefix}detiknews\n`
     MenuList += `${LETT++} ${prefix}wiki\n`
@@ -238,6 +248,7 @@ function randomNomor(min, max = null) {
     MenuList += `${LETT++} ${prefix}pinterest\n`
     MenuList += `${LETT++} ${prefix}lirik\n`
     MenuList += `${LETT++} ${prefix}brainly\n\n`
+   
     MenuList += `_📸Random Pict_\n`
     MenuList += `${LETT++} ${prefix}waifu\n`
     MenuList += `${LETT++} ${prefix}awoo\n`
@@ -245,17 +256,32 @@ function randomNomor(min, max = null) {
     MenuList += `${LETT++} ${prefix}neko\n`
     MenuList += `${LETT++} ${prefix}megumin\n`
     MenuList += `${LETT++} ${prefix}couple\n\n`
+    
     MenuList += `_🎷Sound🎷_\n`
     MenuList += `${LETT++} ${prefix}sound1\n\n`
+    MenuList += `${LETT++} ${prefix}sound2\n\n`
+    MenuList += `${LETT++} ${prefix}sound3\n\n`
+    MenuList += `${LETT++} ${prefix}sound4\n\n`
+    MenuList += `${LETT++} ${prefix}sound5\n\n`
+    MenuList += `${LETT++} ${prefix}sound6\n\n`
+    MenuList += `${LETT++} ${prefix}sound7\n\n`
+    MenuList += `${LETT++} ${prefix}sound8\n\n`
+    MenuList += `${LETT++} ${prefix}sound9\n\n`
+    MenuList += `${LETT++} ${prefix}sound10\n\n`
+    
     MenuList += `🃏Primbon🃏\n`
     MenuList += `${LETT++} ${prefix}artinama\n\n`
+   
     MenuList += `_🛐Islami🛐_\n`
     MenuList += `${LETT++} ${prefix}kisahnabi\n\n`
+   
     MenuList += `🇯🇵AniManga\n`
     MenuList += `${LETT++} ${prefix}manga\n`
     MenuList += `${LETT++} ${prefix}chara\n\n`
+   
     MenuList += `_💽Random Video_\n`
     MenuList += `${LETT++} ${prefix}asupan\n\n`
+   
     MenuList += `🏓_Game_\n`
     MenuList += `${LETT++} ${prefix}tebakgambar\n`
    
@@ -698,7 +724,7 @@ if (!isOwner) return reply('khusus owner')
 if (args.length < 1) return reply(`Masukkan isi pesannya`)
 const bc = await store.chats.all()
 for (let i of bc) {
-sock.sendMessage(i.id, { text: `*[ DEFFBOTZ BROADCAST ]*\n\n${q}` })
+sock.sendMessage(i.id, { text: `*[ Ｔａｓｙａ BROADCAST ]*\n\n${q}` })
 }
 break
 case 'couple': {
@@ -1403,14 +1429,14 @@ case 'mining': case 'menambang':{
        {
      index: 2, 
       quickReplyButton: {
-       displayText: '🌀sᴘᴇᴇᴅ', 
+       displayText: '🔶sᴘᴇᴇᴅ', 
        id: '#speed'
       } 
     },
     { 
      index: 3, 
       quickReplyButton: {
-       displayText: '⚜️ᴏᴡɴᴇʀ', 
+       displayText: '👩‍🦰ᴏᴡɴᴇʀ', 
        id: '#owner'
         } 
      }
@@ -1862,6 +1888,166 @@ case 'sound4':{
    { 
     audio: {
      url : `https://g.top4top.io/m_22916wrkr0.mp3`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound5':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://i.top4top.io/m_2291xif810.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound6':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://j.top4top.io/m_2291bwtt41.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound7':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://k.top4top.io/m_22910o3782.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound8':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://g.top4top.io/m_2291s2a7w0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound9':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://h.top4top.io/m_2291wdztw1.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound10':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://i.top4top.io/m_22914i2zx2.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+   case 'sound11':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://g.top4top.io/m_22912dcro0.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound12':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://h.top4top.io/m_22913d3rq1.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound13':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://d.top4top.io/m_22916h0qx1.m4a`
+    }, 
+    mimetype: 'audio/mp4', 
+    ptt: true
+    }, 
+    {
+    quoted: m
+   }
+   )
+  }
+  break
+  case 'sound14':{
+   sock.sendMessage(
+   from, 
+   { 
+    audio: {
+     url : `https://c.top4top.io/m_2291dvxsb0.m4a`
     }, 
     mimetype: 'audio/mp4', 
     ptt: true
