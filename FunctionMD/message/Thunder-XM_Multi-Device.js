@@ -2058,7 +2058,7 @@ case 'sound4':{
    )
   }
   break
-  case '.menu':{
+  case 'menu':{
    sock.sendMessage(
    from, 
    { 
