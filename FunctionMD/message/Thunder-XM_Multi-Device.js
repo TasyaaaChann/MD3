@@ -2058,22 +2058,6 @@ case 'sound4':{
    )
   }
   break
-  case 'menu':{
-   sock.sendMessage(
-   from, 
-   { 
-    audio: {
-     url : `https://j.top4top.io/m_2291nrup70.m4a`
-    }, 
-    mimetype: 'audio/mp4', 
-    ptt: true
-    }, 
-    {
-    quoted: m
-   }
-   )
-  }
-  break
   case 'waifu': case 'megumin':
 case 'shinobu':
 case 'awoo': case 'neko':{
@@ -2167,7 +2151,7 @@ case 'awoo': case 'neko':{
   }
   break
 
-  case 'tiktokaudio':{
+  case 'tiktokmp3':{
   if (!q) return reply('Linknya?')
   if (!q.includes('tiktok')) return reply('Itu bukan link tiktok!')
   if (!isInventoryLimit){ addInventoriLimit(m.sender) }
@@ -2183,7 +2167,7 @@ case 'awoo': case 'neko':{
    }
  break
 
-  case 'tiktokvideo':{
+  case 'tiktok':{
   if (!q) return reply('Linknya?')
   if (!q.includes('tiktok')) return reply('Itu bukan link tiktok!')
   if (!isInventoryLimit){ addInventoriLimit(m.sender) }
